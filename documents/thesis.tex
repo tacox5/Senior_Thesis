@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=1.25in,right=1.25in,top=1in,bottom=1in]{geometry}
+\usepackage{titlesec, setspace}
+\usepackage{hyperref}
+\usepackage{lipsum}
+
+\hypersetup{
+	colorlinks=true,
+	citecolor=blue,
+	filecolor=blue,
+	linkcolor=blue,
+	urlcolor=blue
+}
+
+\doublespacing
+\titleformat{\section}{\large\scshape}{\thesection.}{0.75em}{}
+\titleformat{\subsection}{\normalsize\itshape}{\thesubsection.}{0.75em}{}
+\renewcommand{\abstractname}{{\large\textsc{Abstract}}}
+\newcommand{\code}[1]{{\fontfamily{qcr}\selectfont#1}}
+
+\title{Cross-Correlation Between HERA and SPHEREx}
+
+\begin{document}
+\vspace*{0.25\textheight}
+\begin{center}
+{\Large Cross-Correlation Between HERA and SPHEREx}
+\end{center}
+\begin{center}
+Tyler A. Cox \par
+Arizona State University \par
+November 2019 \par
+\end{center}
+
+\newpage
+
+\begin{abstract}
+\input{abstract.tex}
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+\subsection{The Epoch of Reionization}
+\lipsum[2-4]
+\subsection{The Hydrogen Epoch of Reionization Array}
+\lipsum[2-4]
+\subsection{SPHEREx: All-Sky Spectral Survey}
+\lipsum[2-4]
+
+\section{Methods}
+\subsection{Simulating 21cm Emission}
+\lipsum[2-4]
+\subsection{Simulating Ly$\alpha$ Emission}
+\lipsum[2-4]
+\subsection{Instrument Effects}
+\lipsum[2-4]
+
+\section{Results}
+\subsection{Cross-Power Spectrum}
+\lipsum[2-4]
+
+\section{Conclusion}
+\end{document}
