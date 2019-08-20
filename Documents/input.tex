@@ -1,0 +1,70 @@
+% Journals
+\newcommand{\aap}{A\&A}
+\newcommand{\aj}{AJ}
+\newcommand{\apj}{ApJ}
+\newcommand{\apjl}{ApJL}
+\newcommand{\araa}{ARA\&A}
+\newcommand{\mnras}{MNRAS}
+\newcommand{\nat}{Nature}
+\newcommand{\pasa}{PASA}
+\newcommand{\pasp}{PASP}
+\newcommand{\physrep}{PhR}
+\newcommand{\prd}{PhRvD}
+\newcommand{\rpph}{RPPh}
+
+% Page formatting
+\geometry{
+	left=1.25in,
+	right=1.25in,
+	top=1in,
+	bottom=1in}
+\hypersetup{
+	colorlinks=true,
+	citecolor=blue,
+	filecolor=blue,
+	linkcolor=blue,
+	urlcolor=blue
+}
+\setlength{\footnotesep}{10pt}
+\setlist{noitemsep}
+
+% Fixing titlesec and hyperref interaction
+\makeatletter
+\def\ttl@useclass#1#2{%
+\@ifstar
+{\ttl@labeltrue\@dblarg{#1{#2}}}
+{\ttl@labeltrue\@dblarg{#1{#2}}}}
+\makeatother
+
+% Image setup
+\graphicspath{{images/}}
+\captionsetup[figure]{labelfont={bf}, font={small, stretch=1.3}, name={Figure}, labelsep=period}
+
+% Section and subsection headings
+\titleformat{\section}{\normalsize\bfseries\centering}{}{0em}{}
+\titleformat{\subsection}{\normalsize\itshape\centering}{}{0.75em}{}
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup}
+\renewcommand{\contentsname}{Table of Contents}
+\renewcommand{\abstractname}{{\normalsize\bfseries\centering{Abstract}}}
+\renewcommand{\bibsection}{}
+
+% For figures
+\makeatletter
+\setlength{\@fptop}{0pt plus 1fil}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+
+% For formatting text and math
+\let\vec\mathbf
+\newcommand{\code}[1]{{\fontfamily{qcr}\selectfont#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\note}[1]{\textcolor{violet}{#1}}
+
+% Special commands
+\newcommand{\HI}{H\,\textsc{i}}
+\newcommand{\OI}{O\,\textsc{i}}
+\newcommand{\heraqm}{\code{hera\textunderscore qm}}
+\newcommand{\herapspec}{\code{hera\textunderscore pspec}}
+\newcommand{\herasim}{\code{hera\textunderscore sim}}
+\newcommand{\pyuvdata}{\code{pyuvdata}}

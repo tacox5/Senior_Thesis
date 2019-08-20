@@ -1,9 +1,0 @@
-Prerequisites:
-- Capo - https://github.com/dannyjacobs/capo
-- Omnical - https://github.com/AaronParsons/omnical
-- matplotlib's basemap - http://matplotlib.org/basemap/users/installing.html
-    (can install with conda install basemap)
-- jupyter - www.jupyter.org
-    can install with conda install jupyter
-
- 
