@@ -1,0 +1,163 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[dotinlabels]{titletoc}
+\usepackage{mathptmx}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry, titlesec, setspace, enumitem}
+\usepackage{xcolor, graphicx, caption, subcaption}
+\usepackage{hyperref, natbib}
+\usepackage{lmodern}
+\input{input.tex}
+
+\begin{document}
+\doublespacing
+\thispagestyle{empty}
+\newpage
+\pagenumbering{arabic}
+
+\begin{center}
+	{\Large \textbf{Cross-Correlation between the Epoch of Reionization Intensity Mapping Experiments, HERA and SPHEREx}} \\
+	[0.15\textheight]
+
+	Prepared for: \\
+	Daniel Jacobs, Adam Beardsley, \& Judd Bowman \\
+	Arizona State University \\
+	School of Earth and Space Exploration \\[0.15\textheight]
+
+	Prepared By: \\
+	Tyler Cox \\
+	Arizona State University \\
+	School of Earth and Space Exploration \\
+	Astrophysics Senior Thesis \\
+	December 10$^{\textrm{th}}$ 2019 \\
+	[0.15\textheight]
+
+\end{center}
+\thispagestyle{empty}
+
+\clearpage
+\pagenumbering{roman}
+
+\begin{center}
+	\textbf{Abstract}
+\end{center}
+
+\input{sections/abstract}
+
+\begingroup
+\hypersetup{
+	citecolor=DarkBlue,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=DarkBlue
+}
+\renewcommand{\thesection}{\Roman{section}}
+\tableofcontents
+\listoffigures
+\endgroup
+
+\newpage
+
+	\begin{center}
+		\textbf{Acknowledgements}
+	\end{center}
+
+		\input{sections/acknowledgments}
+
+\pagenumbering{arabic}
+
+
+%----------------------------------%
+%						Introduction					 %
+%----------------------------------%
+
+\tocless\section{\hypertarget{sec:introduction}{1.\hspace{0.75em}Introduction}}
+\addcontentsline{toc}{section}{1.\hspace{0.75em}Introduction}
+
+	\tocless\subsection{\hypertarget{subsec:universe}{1.1.\hspace{0.75em}The Early Universe}}
+	\addcontentsline{toc}{subsection}{1.1.\hspace{0.75em}The Early Universe}
+
+
+		\input{sections/intro/brief_history}
+
+	\tocless\subsection{\hypertarget{subsec:eor}{1.2.\hspace{0.75em}The Epoch of Reionization}}
+	\addcontentsline{toc}{subsection}{1.2.\hspace{0.75em}The Epoch of Reionization}
+
+		\input{sections/intro/eor}
+
+	\tocless\subsection{\hypertarget{subsec:hera}{1.3.\hspace{0.75em}The Hydrogen Epoch of Reionization Array}}
+	\addcontentsline{toc}{subsection}{1.2.\hspace{0.75em}The Hydrogen Epoch of Reionization Array}
+
+		\input{sections/intro/hera}
+
+
+	\tocless\subsection{\hypertarget{subsec:spherex}{1.4.\hspace{0.75em}SPHEREx}}
+	\addcontentsline{toc}{subsection}{1.2.\hspace{0.75em}SPHEREx}
+
+		\input{sections/intro/spherex}
+
+
+
+
+
+
+
+
+%----------------------------------%
+%							Methods							 %
+%----------------------------------%
+
+\tocless\section{\hypertarget{sec:methods}{2.\hspace{0.75em}Methods}}
+\addcontentsline{toc}{section}{2.\hspace{0.75em}Methods}
+
+\tocless\subsection{\hypertarget{subsec:methods}{2.1.\hspace{0.75em}21cmFAST}}
+\addcontentsline{toc}{subsection}{2.1.\hspace{0.75em}21cmFAST}
+
+	\input{sections/methods/21cmfast.tex}
+
+\tocless\subsection{\hypertarget{subsec:methods}{2.2.\hspace{0.75em}21cm Noise Auto Spectrum}}
+\addcontentsline{toc}{subsection}{2.2.\hspace{0.75em}21cm Noise Auto Spectrum}
+
+	\input{sections/methods/signal_to_noise_21}
+
+\tocless\subsection{\hypertarget{subsec:methods}{2.3.\hspace{0.75em}Ly$\alpha$ Noise Auto Spectrum}}
+\addcontentsline{toc}{subsection}{2.3.\hspace{0.75em}Ly$\alpha$ Noise Auto Spectrum}
+
+	\input{sections/methods/signal_to_noise_lya}
+
+
+
+
+
+
+
+%----------------------------------%
+%							Results							 %
+%----------------------------------%
+
+\tocless\section{\hypertarget{sec:results}{3.\hspace{0.75em}Results}}
+\addcontentsline{toc}{section}{3.\hspace{0.75em}Results}
+
+\input{sections/results/results.tex}
+
+\input{sections/sims/sim.tex}
+
+
+\tocless\section{\hypertarget{sec:summary}{4.\hspace{0.75em}Summary}}
+\addcontentsline{toc}{section}{4.\hspace{0.75em}Summary}
+
+\newpage
+\tocless\section{\hypertarget{references}{References}}
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{aasjournal}
+\nocite{*}
+\bibliography{refs}
+
+\newpage
+\tocless\section{\hypertarget{appendix}{Appendix}}
+\addcontentsline{toc}{section}{Appendix}
+
+\input{sections/appendix}
+
+\end{document}

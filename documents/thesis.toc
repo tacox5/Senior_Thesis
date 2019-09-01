@@ -7,8 +7,11 @@
 \contentsline {subsection}{1.2.\hspace {0.75em}The Hydrogen Epoch of Reionization Array}{1}{subsection.3.3}
 \contentsline {subsection}{1.2.\hspace {0.75em}SPHEREx}{1}{subsection.3.4}
 \contentsline {section}{2.\hspace {0.75em}Methods}{1}{section.4}
-\contentsline {section}{3.\hspace {0.75em}Results}{1}{section.5}
-\contentsline {section}{4.\hspace {0.75em}Summary}{1}{section.6}
-\contentsline {section}{References}{2}{section.7}
-\contentsline {section}{Appendix}{6}{section.8}
+\contentsline {subsection}{2.1.\hspace {0.75em}21cmFAST}{1}{subsection.4.1}
+\contentsline {subsection}{2.2.\hspace {0.75em}21cm Noise Auto Spectrum}{1}{subsection.4.2}
+\contentsline {subsection}{2.3.\hspace {0.75em}Ly$\alpha $ Noise Auto Spectrum}{3}{subsection.4.3}
+\contentsline {section}{3.\hspace {0.75em}Results}{4}{section.5}
+\contentsline {section}{4.\hspace {0.75em}Summary}{4}{section.6}
+\contentsline {section}{References}{5}{section.7}
+\contentsline {section}{Appendix}{8}{section.8}
 \contentsfinish 
