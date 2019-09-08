@@ -7,8 +7,11 @@
 \usepackage{geometry, titlesec, setspace, enumitem}
 \usepackage{xcolor, graphicx, caption, subcaption}
 \usepackage{hyperref, natbib}
+\usepackage{tabularx}
+\usepackage{lipsum}
 \usepackage{lmodern}
 \input{input.tex}
+
 
 \begin{document}
 \doublespacing
@@ -86,8 +89,14 @@
 
 		\input{sections/intro/eor}
 
-	\tocless\subsection{\hypertarget{subsec:hera}{1.3.\hspace{0.75em}The Hydrogen Epoch of Reionization Array}}
-	\addcontentsline{toc}{subsection}{1.2.\hspace{0.75em}The Hydrogen Epoch of Reionization Array}
+	\tocless\subsection{\hypertarget{subsec:eor}{1.3.\hspace{0.75em}}21cm Cosmology}
+	\addcontentsline{toc}{subsection}{1.3.\hspace{0.75em}21cm Cosmology}
+
+			\input{sections/intro/21cm_cosmo}
+
+
+	\tocless\subsection{\hypertarget{subsec:hera}{1.4.\hspace{0.75em}The Hydrogen Epoch of Reionization Array}}
+	\addcontentsline{toc}{subsection}{1.4.\hspace{0.75em}The Hydrogen Epoch of Reionization Array}
 
 		\input{sections/intro/hera}
 
