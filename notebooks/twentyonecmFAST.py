@@ -1,4 +1,18 @@
 import numpy as np
+import sys
+
+def load_binary_data(filename, dtype=np.float32): 
+    """ 
+    We assume that the data was written 
+    with write_binary_data() (little endian). 
+    """ 
+    f = open(filename, "rb")
+    data = f.read()
+    f.close()
+    _data = np.frombuffer(data, dtype)
+    if sys.byteorder == 'big':
+        _data = _data.byteswap()
+    return _data
 
 def calc_FT_cube(incube, x, y, z, invert=False):
     """
