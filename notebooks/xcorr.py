@@ -14,6 +14,12 @@ Functions made for computing lyman alpha surface brightness
 
 """
 
+"""
+
+Galactic Component
+
+"""
+
 def star_formation_rate(M, z = 7, sim_num = 1):
     '''
     Returns the star-formation rate for a dark-matter halo of a given mass and redshift
@@ -164,6 +170,64 @@ def cube_brightness(M, halo_pos, z, n = 256):
 
 """
 
+Diffuse Component
+
+"""
+def n_rec_dot(T_k, x, delta_x, z):
+    """
+    """
+    return alpha(T_k, z) * n_e(x, delta_x, z) * n_HII(x, delta_x, z)
+
+def n_e(x, delta_x, z):
+    """
+    """
+    return x * n_b(delta_x, z)
+
+def n_b(delta_x, z, n_b0 = 1.905e-7 * u.cm ** -3):
+    """
+    """
+    return delta_x * (1 + z) ** 3 * n_b0
+
+def n_HII(x, delta_x, z, Y_He = 0.24):
+    """
+    """
+    return n_e(x, delta_x, z) * (4. - 4. * Y_He) / (4. - 3 * Y_He)
+
+def alpha(T_k, z):
+    """
+    Recombination coefficient
+    """
+    T_k = 1e4
+    units = u.cm ** 3 / u.s
+    return 4.2e-13 * (T_k / 1e4) ** -0.7 * (1 + z) ** 3 * units
+
+def L_diffuse(T_k, x, delta_x, z, f_rec = 0.66):
+    """
+    """
+    E_lya = 1.637e-11 * u.erg
+    return f_rec * n_rec_dot(T_k, x, delta_x, z) * E_lya
+
+def I_diffuse(T_k, x, delta_x, z):
+    """
+    """
+    c = y(z) * cosmo.comoving_transverse_distance(z) ** 2 / (4 * np.pi * cosmo.luminosity_distance(z) ** 2)
+    nu = 2.47e15 / u.s / (1 + z)
+    return (L_diffuse(T_k, x, delta_x, z) * c * nu).to(u.erg / u.cm ** 2 / u.s)
+
+
+
+
+
+"""
+
+Scattered Component
+
+"""
+
+
+
+"""
+
 Define a new class that allows the user to enter values specific to the instrument
 for noise calculation
 
@@ -236,6 +300,8 @@ def power_spectra(cube, boxlength, get_variance = False, deltax2 = None,
     """
     Light wrapper over get_power
     """
+
+
     deltax = cube / cube.mean() - 1.
 
     if deltax2 is None:
@@ -291,7 +357,9 @@ def r(deltax, deltax2, boxlength, get_variance = False, **kwargs):
 
 def I_21(T, z):
     """
+
     Convert mean brightness temperature to a surface brightness
+
     """
     nu = 1420 * u.MHz / (z + 1)
     I = 2. * const.h * nu ** 3 / const.c ** 2 * 1.0 / (np.exp((const.h * nu / (const.k_B * T)).to(u.dimensionless_unscaled) - 1))
