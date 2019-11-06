@@ -7,17 +7,17 @@
 \contentsline {subsection}{1.3\hspace {0.75em}Intensity Mapping Experiments}{2}{subsection.3.3}
 \contentsline {subsubsection}{1.3.1\hspace {0.75em}The Hydrogen Epoch of Reionization Array}{2}{subsubsection.3.3.1}
 \contentsline {subsubsection}{1.3.2\hspace {0.75em}SPHEREx}{2}{subsection.3.4}
-\contentsline {section}{2.\hspace {0.75em}Modeling the Intergalactic Medium}{2}{section.4}
+\contentsline {section}{2.\hspace {0.75em}Modeling 21cm and Ly$\alpha $ Fluctuations}{3}{section.4}
 \contentsline {subsection}{2.1.\hspace {0.75em}21cm Fluctuations}{3}{subsection.4.1}
 \contentsline {subsection}{2.2.\hspace {0.75em}Ly$\alpha $ Emission}{4}{subsection.4.2}
 \contentsline {subsubsection}{2.2.1\hspace {0.75em}Galactic}{4}{subsubsection.4.2.1}
 \contentsline {subsubsection}{2.2.2\hspace {0.75em}Diffuse}{4}{subsubsection.4.2.2}
 \contentsline {subsubsection}{2.2.3\hspace {0.75em}Scattered}{4}{subsubsection.4.2.3}
-\contentsline {section}{3.\hspace {0.75em}Cross-Correlation Studies}{4}{section.5}
-\contentsline {subsection}{3.1.\hspace {0.75em}Cross-Power Spectrum}{4}{subsection.5.1}
-\contentsline {subsection}{3.2.\hspace {0.75em}Observational Uncertainties}{4}{subsection.5.2}
-\contentsline {subsection}{3.3.\hspace {0.75em}Foreground Contamination}{4}{subsection.5.3}
-\contentsline {section}{4.\hspace {0.75em}Conclusions}{5}{section.6}
-\contentsline {section}{References}{6}{section.7}
-\contentsline {section}{Appendix}{7}{section.8}
+\contentsline {section}{3.\hspace {0.75em}Cross-Correlation Studies}{5}{section.5}
+\contentsline {subsection}{3.1.\hspace {0.75em}Cross-Power Spectrum}{5}{subsection.5.1}
+\contentsline {subsection}{3.2.\hspace {0.75em}Observational Uncertainties}{5}{subsection.5.2}
+\contentsline {subsection}{3.3.\hspace {0.75em}Foreground Contamination}{5}{subsection.5.3}
+\contentsline {section}{4.\hspace {0.75em}Conclusions}{6}{section.6}
+\contentsline {section}{References}{7}{section.7}
+\contentsline {section}{Appendix}{8}{section.8}
 \contentsfinish 
