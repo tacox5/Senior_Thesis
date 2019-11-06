@@ -1,2 +1,6 @@
+# Mac Files
 .DS_Store
+
+# Python things
 .ipynb_checkpoints
+__pycache__

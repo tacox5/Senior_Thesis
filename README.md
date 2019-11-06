@@ -1,4 +1,5 @@
-# Senior Thesis
+# SESE Astrophysics Senior Thesis
 
-Scripts and documents related to my senior thesis: estimating the cross-power
-spectrum of simulated signals from HERA (21cm) and SPHEREx (Lyman-alpha).
+Scripts, notebooks, and documents related to my SESE Astrophysics Senior Thesis: Estimating the Feasibility of Detecting the 21cm-Lyα Cross-Power Spectrum using HERA and SPHEREx.
+
+![image](documents/images/sims.png)
