@@ -260,10 +260,10 @@ INPUT sections/methods/lya.tex
 INPUT sections/methods/lya.tex
 INPUT sections/methods/galactic.tex
 INPUT sections/methods/galactic.tex
-INPUT sections/methods/galactic.tex
-INPUT sections/methods/galactic.tex
-INPUT sections/methods/galactic.tex
-INPUT sections/methods/galactic.tex
+INPUT sections/methods/diffuse.tex
+INPUT sections/methods/diffuse.tex
+INPUT sections/methods/scattered.tex
+INPUT sections/methods/scattered.tex
 INPUT sections/methods/ps.tex
 INPUT sections/methods/ps.tex
 INPUT images/21cm_power_spectrum.png
@@ -278,8 +278,8 @@ INPUT ./images/cross_power_spec.png
 INPUT images/ccc_plot.png
 INPUT ./images/ccc_plot.png
 INPUT ./images/ccc_plot.png
-INPUT sections/methods/signal_to_noise_21.tex
-INPUT sections/methods/signal_to_noise_21.tex
+INPUT sections/methods/observation_uncertainty.tex
+INPUT sections/methods/observation_uncertainty.tex
 INPUT sections/methods/wedge.tex
 INPUT sections/methods/wedge.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tex-gyre/ot1qcr.fd
@@ -313,6 +313,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy7.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy9.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
