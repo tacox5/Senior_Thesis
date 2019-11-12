@@ -3,7 +3,7 @@ import astropy.units as u
 from scipy.interpolate import interp1d
 from astropy.cosmology import Planck15 as cosmo
 from astropy import constants as const
-from powerbox.powerbox import get_power
+from powerbox import get_power
 from hmf import MassFunction
 from scipy.ndimage.filters import gaussian_filter
 
