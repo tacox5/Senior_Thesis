@@ -355,7 +355,7 @@ def r(deltax, deltax2, boxlength, get_variance = False, **kwargs):
 
 """
 
-def I_21(T, z):
+def mK_to_SB(T, z):
     """
 
     Convert mean brightness temperature to a surface brightness

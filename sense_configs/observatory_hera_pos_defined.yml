@@ -1,0 +1,12 @@
+# This file denotes a default configuration for the HERA "observatory"
+# All arguments apply to the observatory.Observatory object -- look at the docs
+# for that object, or use `help(Observatory)` in an interpreter to see available
+# options.
+
+antpos: ../hera_positions_staged/antenna_positions_350.dat
+beam:
+  class: GaussianBeam
+  frequency: 150    # By default, in MHz
+  dish_size: 14.0   # By default, in m
+latitude: 0.536189  # In radians
+Trcv: 100000
