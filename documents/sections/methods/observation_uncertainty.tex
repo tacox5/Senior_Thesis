@@ -1,7 +1,7 @@
 21cm uncertainty
 
 \begin{equation}
-\sigma_{21}^2 = \left[ P_{21}\left(k, \mu \right) + \frac{T^2_{\rm sys} V_{\rm sur}}{B \ t_{\rm int} \ n \left(k_{\perp}\right)} \right]
+\sigma_{21}^2 = \left[ P_{21}\left(k_{\perp}, k_{\parallel} \right) + \frac{T^2_{\rm sys} V_{\rm sur}}{B \ t_{\rm int} \ n \left(k_{\perp}\right)} \right]
 \end{equation}
 
 \begin{equation}
@@ -12,21 +12,20 @@ V_{\rm sur} = D^2 \Delta D \left( \lambda_{21}^2 \left( z \right) / A_e\right)^2
 Ly$\alpha$ uncertainty
 
 \begin{equation}
-P_{N, \rm Ly\alpha} = \sigma_{\rm N}^2 V_{\rm vox}
+P_{N, \rm Ly\alpha} = \sigma_{\rm N}^2 V_{\rm vox} {\rm W}_{\rm Ly\alpha}\left(k, \mu \right)
 \end{equation}
 
 $V_{\rm vox} = A_{\rm pix} r_{\rm pix}$
 
 \begin{equation}
-\sigma_{\rm Ly\alpha}^2 = \left[ P_{\rm Ly\alpha}\left(k, \mu \right) + P_{N, \rm Ly\alpha} {\rm W}_{\rm Ly\alpha}\left(k, \mu \right) \right]
+\sigma_{\rm Ly\alpha} = \left[ P_{\rm Ly\alpha}\left(k, \mu \right) + P_{N, \rm Ly\alpha} \right]
 \end{equation}
 
 21cm-Ly$\alpha$ uncertainty
 
 
 \begin{equation}
-    2 \sigma^2_{21, \rm Ly\alpha} = P^2_{21, \rm Ly\alpha} +
-      \left(P_{21} + \sigma_{21} \right) \left( P_{\rm Ly\alpha} + \sigma_{\rm Ly\alpha}\right)
+    2 \sigma^2_{21, \rm Ly\alpha} = P^2_{21, \rm Ly\alpha} + \sigma_{21} \sigma_{\rm Ly\alpha}
 \end{equation}
 
 \begin{equation}

@@ -282,6 +282,12 @@ INPUT sections/methods/observation_uncertainty.tex
 INPUT sections/methods/observation_uncertainty.tex
 INPUT sections/methods/wedge.tex
 INPUT sections/methods/wedge.tex
+INPUT images/wedge-diagram.png
+INPUT ./images/wedge-diagram.png
+INPUT ./images/wedge-diagram.png
+INPUT images/21cm_errorbars.png
+INPUT ./images/21cm_errorbars.png
+INPUT ./images/21cm_errorbars.png
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tex-gyre/ot1qcr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tex-gyre/ot1qcr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/tex-gyre/rm-qcrr.tfm
