@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  17 NOV 2019 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 NOV 2019 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -643,22 +643,22 @@ l.141 ...:methods}{2.2.3\hspace{0.75em}Scattered}}
                                                   \fi \fi 
 l.148 \newpage
               ] (./sections/methods/ps.tex
-<images/21cm_power_spectrum.png, id=219, 615.0177pt x 376.96033pt>
+<images/21cm_power_spectrum.png, id=220, 615.0177pt x 376.96033pt>
 File: images/21cm_power_spectrum.png Graphic file (type png)
 <use images/21cm_power_spectrum.png>
 Package pdftex.def Info: images/21cm_power_spectrum.png  used on input line 15.
 (pdftex.def)             Requested size: 422.77664pt x 259.13657pt.
-<images/lyman_alpha_pspec.png, id=220, 633.66336pt x 385.9218pt>
+<images/lyman_alpha_pspec.png, id=221, 633.66336pt x 385.9218pt>
 File: images/lyman_alpha_pspec.png Graphic file (type png)
 <use images/lyman_alpha_pspec.png>
 Package pdftex.def Info: images/lyman_alpha_pspec.png  used on input line 22.
 (pdftex.def)             Requested size: 422.77664pt x 257.48274pt.
-<images/cross_power_spec.png, id=221, 624.84642pt x 381.15198pt>
+<images/cross_power_spec.png, id=222, 624.84642pt x 381.15198pt>
 File: images/cross_power_spec.png Graphic file (type png)
 <use images/cross_power_spec.png>
 Package pdftex.def Info: images/cross_power_spec.png  used on input line 29.
 (pdftex.def)             Requested size: 422.77664pt x 257.88878pt.
-<images/ccc_plot.png, id=222, 630.1944pt x 385.9218pt>
+<images/ccc_plot.png, id=223, 630.1944pt x 385.9218pt>
 File: images/ccc_plot.png Graphic file (type png)
 <use images/ccc_plot.png>
 Package pdftex.def Info: images/ccc_plot.png  used on input line 36.
@@ -673,12 +673,12 @@ l.29 \end{equation}
                    \relax 
 l.167 ...\hspace{0.75em}Foreground Contamination}}
                                                    (./sections/methods/wedge.tex
-<images/wedge-diagram.png, id=236, 346.79562pt x 252.945pt>
+<images/wedge-diagram.png, id=237, 346.79562pt x 252.945pt>
 File: images/wedge-diagram.png Graphic file (type png)
 <use images/wedge-diagram.png>
 Package pdftex.def Info: images/wedge-diagram.png  used on input line 3.
 (pdftex.def)             Requested size: 352.31625pt x 256.98154pt.
-<images/21cm_errorbars.png, id=237, 1005.2757pt x 498.95209pt>
+<images/21cm_errorbars.png, id=238, 1005.2757pt x 498.95209pt>
 File: images/21cm_errorbars.png Graphic file (type png)
 <use images/21cm_errorbars.png>
 Package pdftex.def Info: images/21cm_errorbars.png  used on input line 10.
@@ -708,19 +708,19 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
  ) 
 Here is how much of TeX's memory you used:
- 10183 strings out of 492649
- 150324 string characters out of 6129622
+ 10186 strings out of 492649
+ 150364 string characters out of 6129622
  363913 words of memory out of 5000000
- 13727 multiletter control sequences out of 15000+600000
- 73290 words of font info for 94 fonts, out of 8000000 for 9000
+ 13730 multiletter control sequences out of 15000+600000
+ 81534 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,39p,779b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-rmm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qcrr.pfb>
-Output written on thesis.pdf (21 pages, 3911658 bytes).
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-rmm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qcrr.pfb>
+Output written on thesis.pdf (21 pages, 3926718 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
- 109 named destinations out of 1000 (max. 500000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 352 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
  224 words of extra memory for PDF output out of 10000 (max. 10000000)
 

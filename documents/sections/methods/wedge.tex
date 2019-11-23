@@ -55,14 +55,10 @@ spectrum, given sufficient enough subtraction.
 I plan to incorporate a treatment of the foreground subtraction in future works.
 Previous works have handled the modeling of the power spectrum due to bright
 
-\begin{equation}
-    P_F \left(q, y\right) = \sum_{j} \epsilon_j^2 A_j \left( \frac{l}{2 \pi q} \right)^{n_j} \left( \frac{\nu_p}{\nu_i}\right)^{m_j}
-\end{equation}
-
 The total variance on the 21cm-Ly$\alpha$ cross power spectrum measurements would
 then be written as:
 
 \begin{equation}
     2 \sigma^2_{21, \rm Ly\alpha} = P^2_{21, \rm Ly\alpha} +
-      \left(P_{21} + P_{F} + \sigma_{21} \right) \left( P_{\rm Ly\alpha} + \sigma_{\rm Ly\alpha}\right)
+      \left(P_{21} + P_{21, F} + P_{21, N} \right) \left( P_{\rm Ly\alpha} + P_{\text{Ly}\alpha, \text{N}}\right)
 \end{equation}

@@ -264,6 +264,9 @@ INPUT sections/methods/diffuse.tex
 INPUT sections/methods/diffuse.tex
 INPUT sections/methods/scattered.tex
 INPUT sections/methods/scattered.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmcsc10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmcsc10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmcsc10.tfm
 INPUT sections/methods/ps.tex
 INPUT sections/methods/ps.tex
 INPUT images/21cm_power_spectrum.png
@@ -304,11 +307,13 @@ INPUT ./thesis.out
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-rmm.enc
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
