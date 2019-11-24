@@ -6,18 +6,17 @@
 \contentsline {subsection}{1.2\hspace {0.75em}The Epoch of Reionization}{2}{subsection.3.2}
 \contentsline {subsection}{1.3\hspace {0.75em}Intensity Mapping Experiments}{2}{subsection.3.3}
 \contentsline {subsubsection}{1.3.1\hspace {0.75em}The Hydrogen Epoch of Reionization Array}{2}{subsubsection.3.3.1}
-\contentsline {subsubsection}{1.3.2\hspace {0.75em}SPHEREx}{2}{subsection.3.4}
-\contentsline {section}{2.\hspace {0.75em}Modeling 21cm and Ly$\alpha $ Fluctuations}{3}{section.4}
-\contentsline {subsection}{2.1.\hspace {0.75em}21cm Fluctuations}{3}{subsection.4.1}
-\contentsline {subsection}{2.2.\hspace {0.75em}Ly$\alpha $ Emission}{4}{subsection.4.2}
-\contentsline {subsubsection}{2.2.1\hspace {0.75em}Galactic}{4}{subsubsection.4.2.1}
-\contentsline {subsubsection}{2.2.2\hspace {0.75em}Diffuse}{5}{subsubsection.4.2.2}
-\contentsline {subsubsection}{2.2.3\hspace {0.75em}Scattered}{5}{subsubsection.4.2.3}
-\contentsline {section}{3.\hspace {0.75em}Cross-Correlation Studies}{6}{section.5}
-\contentsline {subsection}{3.1.\hspace {0.75em}Cross-Power Spectrum}{6}{subsection.5.1}
-\contentsline {subsection}{3.2.\hspace {0.75em}Observational Uncertainties}{6}{subsection.5.2}
-\contentsline {subsection}{3.3.\hspace {0.75em}Foreground Contamination}{7}{subsection.5.3}
-\contentsline {section}{4.\hspace {0.75em}Conclusions}{9}{section.6}
-\contentsline {section}{References}{10}{section.7}
-\contentsline {section}{Appendix}{11}{section.8}
+\contentsline {subsubsection}{1.3.2\hspace {0.75em}SPHEREx: an All-Sky Spectral Survey}{2}{subsection.3.4}
+\contentsline {section}{2.\hspace {0.75em}Modeling 21\tmspace +\thinmuskip {.1667em}cm and Ly$\alpha $ Fluctuations}{3}{section.4}
+\contentsline {subsection}{2.1.\hspace {0.75em}21\tmspace +\thinmuskip {.1667em}cm Fluctuations}{4}{subsection.4.1}
+\contentsline {subsection}{2.2.\hspace {0.75em}Ly$\alpha $ Fluctuations}{5}{subsection.4.2}
+\contentsline {subsubsection}{2.2.1\hspace {0.75em}Galactic}{6}{subsubsection.4.2.1}
+\contentsline {subsubsection}{2.2.2\hspace {0.75em}Ionized IGM}{6}{subsubsection.4.2.2}
+\contentsline {section}{3.\hspace {0.75em}Cross-Correlation Studies}{8}{section.5}
+\contentsline {subsection}{3.1.\hspace {0.75em}Cross-Power Spectrum}{8}{subsection.5.1}
+\contentsline {subsection}{3.2.\hspace {0.75em}Observational Uncertainties}{8}{subsection.5.2}
+\contentsline {subsection}{3.3.\hspace {0.75em}Foreground Contamination}{9}{subsection.5.3}
+\contentsline {section}{4.\hspace {0.75em}Conclusions}{11}{section.6}
+\contentsline {section}{References}{13}{section.7}
+\contentsline {section}{Appendix}{15}{section.8}
 \contentsfinish 

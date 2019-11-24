@@ -34,7 +34,7 @@
 	Arizona State University \\
 	School of Earth and Space Exploration \\
 	Astrophysics Senior Thesis \\
-	December 6$^{\textrm{th}}$, 2019 \\
+	December 5$^{\textrm{th}}$, 2019 \\
 	[0.15\textheight]
 
 \end{center}
@@ -79,6 +79,8 @@
 \tocless\section{\hypertarget{sec:introduction}{1\hspace{0.75em}Introduction}}
 \addcontentsline{toc}{section}{1\hspace{0.75em}Introduction}
 
+\vspace{50pt}
+
 	\tocless\subsection{\hypertarget{subsec:universe}{1.1\hspace{0.75em}The Early Universe}}
 	\addcontentsline{toc}{subsection}{1.1\hspace{0.75em}The Early Universe}
 
@@ -92,20 +94,17 @@
 	\tocless\subsection{\hypertarget{subsec:hera}{1.3\hspace{0.75em}Intensity Mapping Experiments}}
 	\addcontentsline{toc}{subsection}{1.3\hspace{0.75em}Intensity Mapping Experiments}
 
+		\input{sections/intro/intensity_mapping}
+
 		\tocless\subsubsection{\hypertarget{subsubsec:hera}{1.3.1\hspace{0.75em}The Hydrogen Epoch of Reionization Array}}
 		\addcontentsline{toc}{subsubsection}{1.3.1\hspace{0.75em}The Hydrogen Epoch of Reionization Array}
 
 			\input{sections/intro/hera}
 
-		\tocless\subsection{\hypertarget{subsec:spherex}{1.3.2\hspace{0.75em}SPHEREx}}
-		\addcontentsline{toc}{subsubsection}{1.3.2\hspace{0.75em}SPHEREx}
+		\tocless\subsection{\hypertarget{subsec:spherex}{1.3.2\hspace{0.75em}SPHEREx: an All-Sky Spectral Survey}}
+		\addcontentsline{toc}{subsubsection}{1.3.2\hspace{0.75em}SPHEREx: an All-Sky Spectral Survey}
 
 			\input{sections/intro/spherex}
-
-			\input{sections/sims/sim.tex}
-
-
-
 
 %----------------------------------%
 %							Methods							 %
@@ -113,18 +112,20 @@
 
 \newpage
 
-\tocless\section{\hypertarget{sec:methods}{2.\hspace{0.75em}Modeling 21cm and Ly$\alpha$ Fluctuations}}
-\addcontentsline{toc}{section}{2.\hspace{0.75em}Modeling 21cm and Ly$\alpha$ Fluctuations}
+\tocless\section{\hypertarget{sec:methods}{2.\hspace{0.75em}Modeling 21\,cm and Ly$\alpha$ Fluctuations}}
+\addcontentsline{toc}{section}{2.\hspace{0.75em}Modeling 21\,cm and Ly$\alpha$ Fluctuations}
 
-	\input{sections/modeling.tex}
+\vspace{50pt}
 
-	\tocless\subsection{\hypertarget{subsec:methods}{2.1.\hspace{0.75em}21cm Fluctuations}}
-	\addcontentsline{toc}{subsection}{2.1.\hspace{0.75em}21cm Fluctuations}
+		\input{sections/methods/modeling.tex}
+
+	\tocless\subsection{\hypertarget{subsec:methods}{2.1.\hspace{0.75em}21\,cm Fluctuations}}
+	\addcontentsline{toc}{subsection}{2.1.\hspace{0.75em}21\,cm Fluctuations}
 
 		\input{sections/methods/21cmfast.tex}
 
 	\tocless\subsection{\hypertarget{subsec:methods}{2.2.\hspace{0.75em}Ly$\alpha$ Emission}}
-	\addcontentsline{toc}{subsection}{2.2.\hspace{0.75em}Ly$\alpha$ Emission}
+	\addcontentsline{toc}{subsection}{2.2.\hspace{0.75em}Ly$\alpha$ Fluctuations}
 
 		\input{sections/methods/lya.tex}
 
@@ -133,17 +134,10 @@
 
 			\input{sections/methods/galactic.tex}
 
-		\tocless\subsubsection{\hypertarget{subsubsec:methods}{2.2.2\hspace{0.75em}Diffuse}}
-		\addcontentsline{toc}{subsubsection}{2.2.2\hspace{0.75em}Diffuse}
+		\tocless\subsubsection{\hypertarget{subsubsec:methods}{2.2.2\hspace{0.75em}Ionized IGM}}
+		\addcontentsline{toc}{subsubsection}{2.2.2\hspace{0.75em}Ionized IGM}
 
 			\input{sections/methods/diffuse.tex}
-
-		\tocless\subsubsection{\hypertarget{subsubsec:methods}{2.2.3\hspace{0.75em}Scattered}}
-		\addcontentsline{toc}{subsubsection}{2.2.3\hspace{0.75em}Scattered}
-
-			\input{sections/methods/scattered.tex}
-
-
 
 \newpage
 
@@ -154,20 +148,22 @@
 \tocless\section{\hypertarget{sec:results}{3.\hspace{0.75em}Cross-Correlation Studies}}
 \addcontentsline{toc}{section}{3.\hspace{0.75em}Cross-Correlation Studies}
 
+\vspace{50pt}
+
 	\tocless\subsection{\hypertarget{subsec:results}{3.1.\hspace{0.75em}Cross-Power Spectrum}}
 	\addcontentsline{toc}{subsection}{3.1.\hspace{0.75em}Cross-Power Spectrum}
 
-		\input{sections/methods/ps.tex}
+		\input{sections/results/ps.tex}
 
 	\tocless\subsection{\hypertarget{subsec:results}{3.2.\hspace{0.75em}Observational Uncertainties}}
 	\addcontentsline{toc}{subsection}{3.2.\hspace{0.75em}Observational Uncertainties}
 
-		\input{sections/methods/observation_uncertainty}
+		\input{sections/results/observation_uncertainty}
 
 	\tocless\subsection{\hypertarget{subsec:results}{3.3.\hspace{0.75em}Foreground Contamination}}
 	\addcontentsline{toc}{subsection}{3.3.\hspace{0.75em}Foreground Contamination}
 
-		\input{sections/methods/wedge.tex}
+		\input{sections/results/wedge.tex}
 
 
 		%----------------------------------%
@@ -179,7 +175,8 @@
 \tocless\section{\hypertarget{sec:summary}{4.\hspace{0.75em}Conclusions}}
 \addcontentsline{toc}{section}{4.\hspace{0.75em}Conclusions}
 
-This is where my smart words go. I'll say very smart things here. \fastsim
+\vspace{50pt}
+	\input{sections/summary.tex}
 
 \newpage
 \tocless\section{\hypertarget{references}{References}}
