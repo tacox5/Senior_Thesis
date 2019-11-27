@@ -4,44 +4,44 @@ The top-level auxiliary file: thesis.aux
 The style file: aasjournal.bst
 Database file #1: refs.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 19 entries,
+You've used 21 entries,
             3166 wiz_defined-function locations,
-            820 strings with 11809 characters,
-and the built_in function-call counts, 10773 in all, are:
-= -- 814
-> -- 991
-< -- 3
-+ -- 333
-- -- 363
-* -- 1056
-:= -- 1986
-add.period$ -- 21
-call.type$ -- 19
-change.case$ -- 123
-chr.to.int$ -- 19
-cite$ -- 19
-duplicate$ -- 339
-empty$ -- 564
-format.name$ -- 379
-if$ -- 2131
+            834 strings with 12152 characters,
+and the built_in function-call counts, 11772 in all, are:
+= -- 906
+> -- 1043
+< -- 4
++ -- 350
+- -- 381
+* -- 1139
+:= -- 2150
+add.period$ -- 24
+call.type$ -- 21
+change.case$ -- 134
+chr.to.int$ -- 21
+cite$ -- 21
+duplicate$ -- 373
+empty$ -- 634
+format.name$ -- 402
+if$ -- 2349
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 67
-num.names$ -- 77
-pop$ -- 143
+missing$ -- 19
+newline$ -- 74
+num.names$ -- 85
+pop$ -- 157
 preamble$ -- 1
-purify$ -- 123
+purify$ -- 134
 quote$ -- 0
-skip$ -- 300
+skip$ -- 341
 stack$ -- 0
-substring$ -- 411
+substring$ -- 487
 swap$ -- 12
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 171
+type$ -- 189
 warning$ -- 0
-while$ -- 75
+while$ -- 83
 width$ -- 0
-write$ -- 214
+write$ -- 236

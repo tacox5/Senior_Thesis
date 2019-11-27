@@ -19,6 +19,11 @@
 {Chang}, T.~C., {Gong}, Y., {Santos}, M., {et~al.} 2015, in Advancing
   Astrophysics with the Square Kilometre Array (AASKA14), 4
 
+\bibitem[{{Comaschi} {et~al.}(2016){Comaschi}, {Yue}, \&
+  {Ferrara}}]{2016MNRAS.463.3193C}
+{Comaschi}, P., {Yue}, B., \& {Ferrara}, A. 2016, \mnras, 463, 3193,
+  \dodoi{10.1093/mnras/stw2198}
+
 \bibitem[{{Datta} {et~al.}(2010){Datta}, {Bowman}, \&
   {Carilli}}]{2010ApJ...724..526D}
 {Datta}, A., {Bowman}, J.~D., \& {Carilli}, C.~L. 2010, \apj, 724, 526,
@@ -85,6 +90,10 @@
   {Yajima}, {Ouchi}, {Pindor}, \& {Webster}}]{2018MNRAS.479.2754K}
 {Kubota}, K., {Yoshiura}, S., {Takahashi}, K., {et~al.} 2018, \mnras, 479,
   2754, \dodoi{10.1093/mnras/sty1471}
+
+\bibitem[{{Liu} \& {Shaw}(2019)}]{2019arXiv190708211L}
+{Liu}, A., \& {Shaw}, J.~R. 2019, arXiv e-prints, arXiv:1907.08211.
+\newblock \doarXiv{1907.08211}
 
 \bibitem[{{Mesinger} {et~al.}(2011){Mesinger}, {Furlanetto}, \&
   {Cen}}]{2011MNRAS.411..955M}

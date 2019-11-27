@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  24 NOV 2019 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 NOV 2019 07:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -537,7 +537,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
  [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sections/abstract.tex [1
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sections/abstract.tex
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 23.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 23.
+ [1
 
 ]) (./thesis.toc)
 \tf@toc=\write4
@@ -548,41 +555,46 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout5 = `thesis.lof'.
 
  [3] (./sections/acknowledgments.tex [4]) (./sections/intro/brief_history.tex) (./sections/intro/eor.tex
-<images/intro/reionization.png, id=157, 3712.87125pt x 1270.7475pt>
+<images/intro/reionization.png, id=165, 3712.87125pt x 1270.7475pt>
 File: images/intro/reionization.png Graphic file (type png)
 <use images/intro/reionization.png>
 Package pdftex.def Info: images/intro/reionization.png  used on input line 5.
 (pdftex.def)             Requested size: 469.75502pt x 160.76265pt.
-<images/spin_flip_H.png, id=158, 2409.0pt x 550.055pt>
+<images/spin_flip_H.png, id=166, 2409.0pt x 550.055pt>
 File: images/spin_flip_H.png Graphic file (type png)
 <use images/spin_flip_H.png>
-Package pdftex.def Info: images/spin_flip_H.png  used on input line 12.
+Package pdftex.def Info: images/spin_flip_H.png  used on input line 14.
 (pdftex.def)             Requested size: 422.77664pt x 96.52965pt.
+<images/upper_limit.png, id=168, 1206.5075pt x 387.4475pt>
+File: images/upper_limit.png Graphic file (type png)
+<use images/upper_limit.png>
+Package pdftex.def Info: images/upper_limit.png  used on input line 25.
+(pdftex.def)             Requested size: 469.75502pt x 150.8497pt.
 ) (./sections/intro/intensity_mapping.tex
-<images/results/intensity_mapping.png, id=160, 555.07375pt x 286.06876pt>
+<images/results/intensity_mapping.png, id=173, 555.07375pt x 286.06876pt>
 File: images/results/intensity_mapping.png Graphic file (type png)
 <use images/results/intensity_mapping.png>
-Package pdftex.def Info: images/results/intensity_mapping.png  used on input line 3.
+Package pdftex.def Info: images/results/intensity_mapping.png  used on input line 5.
 (pdftex.def)             Requested size: 446.26582pt x 229.99458pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.6 \end{figure}
-                 [1
+l.10 \end{figure}
+                  [1
 
 ]) (./sections/intro/hera.tex
-<images/intro/hera_layout.png, id=169, 527.9725pt x 254.9525pt>
+<images/intro/hera_layout.png, id=182, 527.9725pt x 254.9525pt>
 File: images/intro/hera_layout.png Graphic file (type png)
 <use images/intro/hera_layout.png>
 Package pdftex.def Info: images/intro/hera_layout.png  used on input line 5.
 (pdftex.def)             Requested size: 469.75502pt x 226.84085pt.
 ) (./sections/intro/spherex.tex
-<images/spherex.jpg, id=172, 988.69376pt x 557.08125pt>
+<images/spherex.jpg, id=185, 988.69376pt x 557.08125pt>
 File: images/spherex.jpg Graphic file (type jpg)
 <use images/spherex.jpg>
-Package pdftex.def Info: images/spherex.jpg  used on input line 5.
+Package pdftex.def Info: images/spherex.jpg  used on input line 6.
 (pdftex.def)             Requested size: 446.26582pt x 251.44928pt.
-) [2 <./images/intro/reionization.png> <./images/spin_flip_H.png>]
+ [2 <./images/intro/reionization.png> <./images/spin_flip_H.png>]) [3 <./images/upper_limit.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 115.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -615,10 +627,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95871pt
 (hyperref)                removed on input line 123.
 
-(./sections/methods/21cmfast.tex [3 <./images/results/intensity_mapping.png>] [4 <./images/intro/hera_layout.png>])pdfTeX warning (ext4): destination with the same identifier (name{subsec:methods}) has been already used, duplicate ignored
+(./sections/methods/21cmfast.tex [4 <./images/results/intensity_mapping.png>] [5 <./images/intro/hera_layout.png>])pdfTeX warning (ext4): destination with the same identifier (name{subsec:methods}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.127 ...{2.2.\hspace{0.75em}Ly$\alpha$ Emission}}
+l.127 ...}{2.2.\hspace{0.75em}\lya\ Fluctuations}}
                                                   
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -632,114 +644,150 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 128.
 
-(./sections/methods/lya.tex) (./sections/methods/galactic.tex [5 <./images/spherex.jpg>]) (./sections/methods/diffuse.tex [6pdfTeX warning (ext4): destination with the same identifier (name{subsubsec:methods}) has been already used, duplicate ignored
+(./sections/methods/lya.tex [6 <./images/spherex.jpg>])
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.19 \end{equation}
-                   ]
-<images/sims.png, id=237, 711.8595pt x 911.3247pt>
-File: images/sims.png Graphic file (type png)
-<use images/sims.png>
-Package pdftex.def Info: images/sims.png  used on input line 37.
-(pdftex.def)             Requested size: 469.75502pt x 601.39273pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 40.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 40.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 40.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
-) [7] (./sections/results/ps.tex
-<images/21cm_power_spectrum.png, id=247, 622.53378pt x 386.06635pt>
-File: images/21cm_power_spectrum.png Graphic file (type png)
-<use images/21cm_power_spectrum.png>
-Package pdftex.def Info: images/21cm_power_spectrum.png  used on input line 21.
-(pdftex.def)             Requested size: 469.75502pt x 291.3163pt.
-<images/lyman_alpha_pspec.png, id=248, 639.5895pt x 386.06635pt>
-File: images/lyman_alpha_pspec.png Graphic file (type png)
-<use images/lyman_alpha_pspec.png>
-Package pdftex.def Info: images/lyman_alpha_pspec.png  used on input line 28.
-(pdftex.def)             Requested size: 469.75502pt x 283.558pt.
-<images/cross_power_spec.png, id=249, 631.20618pt x 388.37898pt>
-File: images/cross_power_spec.png Graphic file (type png)
-<use images/cross_power_spec.png>
-Package pdftex.def Info: images/cross_power_spec.png  used on input line 35.
-(pdftex.def)             Requested size: 469.75502pt x 289.04343pt.
-<images/ccc_plot.png, id=250, 635.2533pt x 390.9807pt>
-File: images/ccc_plot.png Graphic file (type png)
-<use images/ccc_plot.png>
-Package pdftex.def Info: images/ccc_plot.png  used on input line 42.
-(pdftex.def)             Requested size: 469.75502pt x 289.11833pt.
-) (./sections/results/observation_uncertainty.tex [8pdfTeX warning (ext4): destination with the same identifier (name{subsec:results}) has been already used, duplicate ignored
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 133.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.16 \end{equation}
-                   ])pdfTeX warning (ext4): destination with the same identifier (name{subsec:results}) has been already used, duplicate ignored
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 133.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 133.
+
+(./sections/methods/galactic.tex [7])pdfTeX warning (ext4): destination with the same identifier (name{subsubsec:methods}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.163 ...\hspace{0.75em}Foreground Contamination}}
+l.137 ...ethods}{2.2.2\hspace{0.75em}Ionized IGM}}
+                                                   (./sections/methods/diffuse.tex [8]
+<images/sims.pdf, id=265, 714.0584pt x 693.14659pt>
+File: images/sims.pdf Graphic file (type pdf)
+<use images/sims.pdf>
+Package pdftex.def Info: images/sims.pdf  used on input line 40.
+(pdftex.def)             Requested size: 469.75502pt x 456.00803pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 41.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 41.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 41.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+)pdfTeX warning (ext4): destination with the same identifier (name{subsubsec:methods}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.142 ...}{2.2.3\hspace{0.75em}\lya\ Attenuation}}
+                                                  
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 143.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 143.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 143.
+
+(./sections/methods/lya_attenuation.tex [9 <./images/sims.pdf>]) [10] (./sections/results/ps.tex
+<images/21cm_power_spectrum.png, id=313, 622.53378pt x 386.06635pt>
+File: images/21cm_power_spectrum.png Graphic file (type png)
+<use images/21cm_power_spectrum.png>
+Package pdftex.def Info: images/21cm_power_spectrum.png  used on input line 28.
+(pdftex.def)             Requested size: 469.75502pt x 291.3163pt.
+<images/lyman_alpha_pspec.png, id=314, 639.5895pt x 386.06635pt>
+File: images/lyman_alpha_pspec.png Graphic file (type png)
+<use images/lyman_alpha_pspec.png>
+Package pdftex.def Info: images/lyman_alpha_pspec.png  used on input line 36.
+(pdftex.def)             Requested size: 469.75502pt x 283.558pt.
+<images/cross_power_spec.png, id=315, 633.51881pt x 390.9807pt>
+File: images/cross_power_spec.png Graphic file (type png)
+<use images/cross_power_spec.png>
+Package pdftex.def Info: images/cross_power_spec.png  used on input line 44.
+(pdftex.def)             Requested size: 469.75502pt x 289.91777pt.
+<images/ccc_plot.png, id=316, 635.2533pt x 390.9807pt>
+File: images/ccc_plot.png Graphic file (type png)
+<use images/ccc_plot.png>
+Package pdftex.def Info: images/ccc_plot.png  used on input line 55.
+(pdftex.def)             Requested size: 469.75502pt x 289.11833pt.
+) (./sections/results/observation_uncertainty.tex [11pdfTeX warning (ext4): destination with the same identifier (name{subsec:results}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.6 \end{equation}
+                  ]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 12.
+
+[12 <./images/21cm_power_spectrum.png>]
+<images/error_budget.png, id=341, 638.43318pt x 383.60916pt>
+File: images/error_budget.png Graphic file (type png)
+<use images/error_budget.png>
+Package pdftex.def Info: images/error_budget.png  used on input line 58.
+(pdftex.def)             Requested size: 446.26582pt x 268.14995pt.
+)pdfTeX warning (ext4): destination with the same identifier (name{subsec:results}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 ...\hspace{0.75em}Foreground Contamination}}
                                                    (./sections/results/wedge.tex
-<images/wedge-diagram.png, id=265, 346.79562pt x 252.945pt>
+<images/wedge-diagram.png, id=342, 346.79562pt x 252.945pt>
 File: images/wedge-diagram.png Graphic file (type png)
 <use images/wedge-diagram.png>
 Package pdftex.def Info: images/wedge-diagram.png  used on input line 3.
-(pdftex.def)             Requested size: 352.31625pt x 256.98154pt.
-<images/21cm_errorbars.png, id=266, 660.98141pt x 389.82439pt>
-File: images/21cm_errorbars.png Graphic file (type png)
-<use images/21cm_errorbars.png>
-Package pdftex.def Info: images/21cm_errorbars.png  used on input line 10.
-(pdftex.def)             Requested size: 469.75502pt x 277.04492pt.
-<images/xps_noise_opt_7.png, id=267, 638.43318pt x 383.60916pt>
-File: images/xps_noise_opt_7.png Graphic file (type png)
-<use images/xps_noise_opt_7.png>
-Package pdftex.def Info: images/xps_noise_opt_7.png  used on input line 17.
-(pdftex.def)             Requested size: 469.75502pt x 282.26834pt.
-<images/cross_power_SNR.png, id=268, 617.76396pt x 383.60916pt>
-File: images/cross_power_SNR.png Graphic file (type png)
-<use images/cross_power_SNR.png>
-Package pdftex.def Info: images/cross_power_SNR.png  used on input line 24.
-(pdftex.def)             Requested size: 446.26582pt x 277.11736pt.
- [9]) [10] (./sections/summary.tex [11]) [12] (./thesis.bbl
+(pdftex.def)             Requested size: 422.77664pt x 308.37245pt.
+<images/21cm_errorbars.pdf, id=343, 734.26321pt x 410.01503pt>
+File: images/21cm_errorbars.pdf Graphic file (type pdf)
+<use images/21cm_errorbars.pdf>
+Package pdftex.def Info: images/21cm_errorbars.pdf  used on input line 14.
+(pdftex.def)             Requested size: 469.75502pt x 262.31487pt.
+<images/xcorr_snr.pdf, id=344, 617.57686pt x 307.41333pt>
+File: images/xcorr_snr.pdf Graphic file (type pdf)
+<use images/xcorr_snr.pdf>
+Package pdftex.def Info: images/xcorr_snr.pdf  used on input line 25.
+(pdftex.def)             Requested size: 446.26582pt x 222.13953pt.
+ [13 <./images/lyman_alpha_pspec.png>] [14 <./images/cross_power_spec.png>] [15 <./images/ccc_plot.png>]) [16] (./sections/summary.tex [17 <./images/error_budget.png>] [18 <./images/wedge-diagram.png>]) [19 <./images/21cm_errorbars.pdf>] [20 <./images/xcorr_snr.pdf>] (./thesis.bbl
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 15.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1147) in paragraph at lines 80--83
+Underfull \hbox (badness 1147) in paragraph at lines 85--88
 []\OT1/lmr/m/n/12 Kubota, K., In-oue, A. K., Hasegawa, K., & Taka-hashi, K. 2019, arXiv e-prints,
  []
 
-[13]) [14] (./sections/appendix.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
- [15] [16 <./images/sims.png>] [17 <./images/21cm_power_spectrum.png> <./images/lyman_alpha_pspec.png>] [18 <./images/cross_power_spec.png> <./images/ccc_plot.png>] [19 <./images/wedge-diagram.png> <./images/21cm_errorbars.png>] [20 <./images/xps_noise_opt_7.png> <./images/cross_power_SNR.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+[21]) [22] (./sections/appendix.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+ [23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BD3D51EC86BAEDAB42F2BB5BFF044C5D;1377.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+(rerunfilecheck)             Checksum: 425B05543E17689E5F6A82722659B5CC;1460.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
  ) 
 Here is how much of TeX's memory you used:
- 10207 strings out of 492649
- 151119 string characters out of 6129622
- 365547 words of memory out of 5000000
- 13735 multiletter control sequences out of 15000+600000
- 91310 words of font info for 99 fonts, out of 8000000 for 9000
+ 10257 strings out of 492649
+ 152126 string characters out of 6129622
+ 366764 words of memory out of 5000000
+ 13762 multiletter control sequences out of 15000+600000
+ 94058 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,10n,39p,779b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/lm/lmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (25 pages, 5669129 bytes).
+ 37i,14n,45p,779b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on thesis.pdf (28 pages, 5347231 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 403 compressed objects within 5 object streams
- 121 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 629 PDF objects out of 1000 (max. 8388607)
+ 529 compressed objects within 6 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

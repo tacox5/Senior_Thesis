@@ -3,21 +3,48 @@
 \end{equation}
 
 \begin{equation}
-  f_{\rm exc} \left( M, z\right) = f_{\rm Ly\alpha} \left( 1 - f_{\rm esc} \left( M, z\right) \right) A_{\rm He}
+  \dot{N}_{\rm Ly\alpha} \left( M, z\right) = A_{\rm He} \dot{N}_{\rm ion} f_{\rm rec} f_{\rm Ly\alpha} \left[ 1 - f_{\rm esc} \left( M, z\right) \right]
 \end{equation}
+
+Here $A_{\rm He} = \left(4 - Y_{\rm He} \right) / \left( 4 - 3 Y_{\rm He} \right)$. I also assume $f_{\rm rec} \approx 0.66$
+
+\begin{equation}
+f_{\rm Ly\alpha} = C_{\rm dust} \times 10^{-3} \left( 1 + z\right)^{\zeta}
+\end{equation}
+
+Here $C_{\rm dust}$ and $\zeta$ are fit for in.
+
+\begin{equation}
+f_{\rm esc} \left( M, z\right) = \exp \left[ \alpha \left(z \right) M^{\beta \left(z \right)} \right]
+\end{equation}
+
+Here $\alpha$ and $\beta$ are redshift dependent parameters defined in
+
+\begin{equation}
+  {\rm SFR} = 2.8 \times 10^{-28} \left(\frac{M}{M_{\odot}} \right)^a \left( 1 + \frac{M}{c_1}\right)^b \left(1 + \frac{M}{c_2} \right)^d \ \left[ M_{\odot} \ {\rm yr}^{-1} \right]
+\end{equation}
+
+Where $a = -0.94$, $b = -1.7$, $c_1 = 10^9 \ M_{\odot}$, $c_2 = 7 \times 10^{10} \ M_{\odot}$, and $d = -1.7$ which
+fitted parameters defined in (SFR PAPER). Here are more relations $\dot{N}_{\rm ion} = Q_{\rm ion} \times \textrm{SFR} \left(M, z \right)$ where $Q_{\rm ion} \approx 5.8 \times 10^{60} \ M_{\odot}^{-1}$.
 
 \begin{equation}
   L_{\rm exc}^{\rm gal} \left( M, z\right) = f_{\rm exc} E_{\rm exc} \dot{N}_{\rm ion}
 \end{equation}
 
-\begin{equation}
-  {\rm SFR} = 2.8 \times 10^{-28} \left(\frac{M}{M_{\odot}} \right)^a \left( 1 + \frac{M}{c_1}\right)^b \left(1 + \frac{M}{c_2} \right)^d \left[ M_{\odot} \ {\rm yr}^{-1} \right]
-\end{equation}
+Also $E_{\rm exc} \approx 2.14 eV$.
 
 \begin{equation}
   I_{\nu}^{\rm gal}\left(\textbf{x}, z \right) = y \left(z \right)d_A^2 \left(z \right) \frac{L^{\rm gal} \left(\textbf{x}, z \right)}{4 \pi d_L^2}
 \end{equation}
 
+Here $d_A$ is the comoving angular diameter distance, $d_L$ is the luminosity distance, and
+$y \left( z \right) = \lambda_{0} \left( 1 + z\right)^2 / H \left(z \right)$ (for the rest-frame
+wavelength of \lya\ radiation, $\lambda_0 = 1216$ \AA).
+
 \begin{equation}
   \bar{I}_{\nu} = \int_{M_{\rm min}}^{M_{\rm max}} dM \frac{dn}{dM} I^{\rm gal}_{\nu} \left(M, z \right)
 \end{equation}
+
+The relation above is used to define an average intensity at a given redshift. Here $dn/dm$ is the
+Tormen-Sheth halo mass function, $M_{\rm min} = 10^{8} \ M_{\odot}$, and $M_{\rm max} = 10^{13} \ M_{\odot}$.
+The halo mass function acts as a weight in a weighted average.

@@ -8,14 +8,17 @@ Diffuse
   \dot{n}_{\rm rec} \left( \textbf{x}, z \right) = \alpha_{\rm A} n_{e} \left(z \right) n_{HII} \left(z \right)
 \end{equation}
 
-This is an equation $n_{e} = x_i \left( \textbf{x}, z \right) n_{b} \left( \textbf{x}, z \right) $
+This is an equation $n_{e} = x_i \left( \textbf{x}, z \right) n_{b} \left( \textbf{x}, z \right) $ and
+
 
 \begin{equation}
   n_{b} \left( \textbf{x}, z \right) = \bar{n}_{b, 0} \left( 1 + z\right)^3 \left[1 + \delta_{\rm nl} \left( \textbf{x}, z\right) \right]
 \end{equation}
 
+Where $1 + \delta_{\rm nl} \left( \textbf{x}, z\right)$ is the non-linear density contrast.
+
 \begin{equation}
-  \alpha_{\rm A} \approx 4.2 \times 10^{-13} \left( T_{\rm K} / 10^4 {\rm K} \right)^{-0.7} \left( 1 + z\right)^3 \left[\rm  cm^3 \ s^{-1} \right]
+  \alpha_{\rm A} \approx 4.2 \times 10^{-13} \left( T_{\rm K} / 10^4 {\rm K} \right)^{-0.7} \left( 1 + z\right)^3 \ \left[\rm  cm^3 \ s^{-1} \right]
 \end{equation}
 
 \begin{equation}
@@ -34,9 +37,7 @@ Scattered
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=1\textwidth]{sims.png}
-	\caption[Simulated 21cm and Ly$\alpha$ emission]{Simulated 21cm and Ly$\alpha$ emission
-	 as described in section blah. Each column represents simulated emission at different
-	 redshift value.}
+	\includegraphics[width=1\textwidth]{sims.pdf}
+	\caption[Simulated 21cm and \lya\ emission]{Slices through the simulated 21\,cm brightness temperature offset, $\delta T_b$, and \lya\ cubes.}
 	\label{fig:sims}
 \end{figure}
