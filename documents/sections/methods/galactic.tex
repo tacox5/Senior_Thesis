@@ -1,6 +1,15 @@
+\label{ref:laes}
+
+I start by describing the emission of EoR \lya\ stemming from \lya\ emitting
+galaxies.
+
 \begin{equation}
-  L_{\rm rec}^{\rm gal} \left( M, z\right) = E_{\rm Ly\alpha} \dot{N}_{\rm Ly\alpha} \left( M, z\right)
+  L_{\rm rec}^{\rm gal} \left( M, z\right) = E_{\rm Ly\alpha} \dot{N}_{\rm Ly\alpha} \left( M, z\right),
 \end{equation}
+
+where I assume the emission of \lya\ radiation at rest-frame frequency, $\nu_0 = 2.47 \times 10^{15}$ Hz
+with energy $E_{\rm Ly\alpha} = 13.6 \ {\rm eV}$. The relationship above gives the
+number of \lya\ 
 
 \begin{equation}
   \dot{N}_{\rm Ly\alpha} \left( M, z\right) = A_{\rm He} \dot{N}_{\rm ion} f_{\rm rec} f_{\rm Ly\alpha} \left[ 1 - f_{\rm esc} \left( M, z\right) \right]
@@ -12,26 +21,27 @@ Here $A_{\rm He} = \left(4 - Y_{\rm He} \right) / \left( 4 - 3 Y_{\rm He} \right
 f_{\rm Ly\alpha} = C_{\rm dust} \times 10^{-3} \left( 1 + z\right)^{\zeta}
 \end{equation}
 
-Here $C_{\rm dust}$ and $\zeta$ are fit for in.
+Here $C_{\rm dust}$ and $\zeta$ are fit for in (\cite{2011ApJ...730....8H}).
 
 \begin{equation}
 f_{\rm esc} \left( M, z\right) = \exp \left[ \alpha \left(z \right) M^{\beta \left(z \right)} \right]
 \end{equation}
 
-Here $\alpha$ and $\beta$ are redshift dependent parameters defined in
+Here $\alpha$ and $\beta$ are redshift dependent parameters defined in \cite{2010ApJ...710.1239R}
 
 \begin{equation}
   {\rm SFR} = 2.8 \times 10^{-28} \left(\frac{M}{M_{\odot}} \right)^a \left( 1 + \frac{M}{c_1}\right)^b \left(1 + \frac{M}{c_2} \right)^d \ \left[ M_{\odot} \ {\rm yr}^{-1} \right]
 \end{equation}
 
 Where $a = -0.94$, $b = -1.7$, $c_1 = 10^9 \ M_{\odot}$, $c_2 = 7 \times 10^{10} \ M_{\odot}$, and $d = -1.7$ which
-fitted parameters defined in (SFR PAPER). Here are more relations $\dot{N}_{\rm ion} = Q_{\rm ion} \times \textrm{SFR} \left(M, z \right)$ where $Q_{\rm ion} \approx 5.8 \times 10^{60} \ M_{\odot}^{-1}$.
+fitted parameters defined in (\cite{2013ApJ...763..132S}). Here are more relations $\dot{N}_{\rm ion} = Q_{\rm ion} \times \textrm{SFR} \left(M, z \right)$ where $Q_{\rm ion} \approx 5.8 \times 10^{60} \ M_{\odot}^{-1}$
+\cite{2002A&A...382...28S}.
 
 \begin{equation}
   L_{\rm exc}^{\rm gal} \left( M, z\right) = f_{\rm exc} E_{\rm exc} \dot{N}_{\rm ion}
 \end{equation}
 
-Also $E_{\rm exc} \approx 2.14 eV$.
+Also $E_{\rm exc} \approx 2.14 eV$ \cite{1996ApJ...468..462G} \cite{2005MNRAS.362..799M}.
 
 \begin{equation}
   I_{\nu}^{\rm gal}\left(\textbf{x}, z \right) = y \left(z \right)d_A^2 \left(z \right) \frac{L^{\rm gal} \left(\textbf{x}, z \right)}{4 \pi d_L^2}

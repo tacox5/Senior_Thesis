@@ -1,17 +1,46 @@
-\begin{equation}
-L^{\textrm{gal}}_{\textrm{obs}} = L^{\textrm{gal}} e^{-\tau_{\textrm{Ly}\alpha}}
-\end{equation}
+In order to more realistically estimate the observed \lya\ emission from galaxies,
+attenuation of \lya\ by the IGM needs to be taken into account. I use the expression
+below to calculate the \lya\ luminosity from galaxies actually observed,
 
 \begin{equation}
-\tau_{\textrm{s}} \approx  6.45 \times 10^5 \left( \frac{\Omega_b h}{0.03}\right) \left( \frac{\Omega_m}{0.3}\right)^{-0.5} \left(  \frac{1 + z_{\textrm{s}}}{10}\right)^{1.5}
+L^{\textrm{gal}}_{\textrm{obs}} = L^{\textrm{gal}} e^{-\tau_{\textrm{Ly}\alpha}}.
 \end{equation}
 
+Here $L^{\textrm{gal}}$ is the luminosity of \lya\ emitting galaxies defined in the previous section and
+$\tau_{\textrm{Ly}\alpha}$ is the optical depth of \lya\ emission at some redshift.
+
+\lya radiation is emitted by some source and as that radiation travels from the virial
+radius of that \lya\ emitter to the edge of the ionized bubble, it is redshifted
+out of resonance and to the line damping wings where it has a lower probability of
+being absorbed. As reionization progresses and the ionized bubbles around halos grow,
+the probability of \lya\ being attenuated decreases. While accurately modeling
+\lya\ radiative transfer during reionization is still an open problem, I use a
+model for the optical depth of \lya\ that is defined in \cite{1998ApJ...501...15M}
 \begin{align}
 \tau_{\textrm{Ly}\alpha} &= \tau_{\textrm{s}} \bar{x}_{\textrm{HI}} \left( \frac{2.02 \times 10^{-8}}{\pi}\right) \left(\frac{1 + z_s}{1 + z_{\textrm{obs}}} \right)^{1.5} \nonumber \\
 & \hspace{1em} \times \left[ I\left(\frac{1 + z_s}{1 + z_{\textrm{obs}}} \right) - I\left(\frac{1 + z_{\textrm{reion}}}{1 + z_{\textrm{obs}}}\right) \right]
 \end{align}
+given the redshift of a \lya\ emitting source, $z_{s}$, redshift of the observation,
+$z_{\rm obs}$, and a neutral fraction, $\bar{x}_{\textrm{HI}}$. This assumes that
+the optical line depth at \lya\ line resonance, $\tau_s$, can be approximated as
+
+\begin{equation}
+\tau_{\textrm{s}} \approx  6.45 \times 10^5 \left( \frac{\Omega_b h}{0.03}\right) \left( \frac{\Omega_m}{0.3}\right)^{-0.5} \left(  \frac{1 + z_{\textrm{s}}}{10}\right)^{1.5}
+\end{equation}
+at high-redshifts for a source at some redshift, $z_{s}$, given present day, $\Omega_b$, and $\Omega_m$ (\cite{1965ApJ...142.1633G}, \cite{2001PhR...349..125B}). In the expression
+above, $I$ is the helper function,
 
 \begin{align}
 I \left(x \right) &= \frac{x^{4.5}}{1 - x} + \frac{9}{7}x^{3.5} + \frac{9}{5}x^{2.5} + 3 x^{1.5} + 9 x^{0.5} \nonumber \\
-                & \hspace{1em}- 4.5 \log \left( \frac{1 + x^{0.5}}{1 - x^{0.5}}\right)
+                & \hspace{1em}- 4.5 \log \left( \frac{1 + x^{0.5}}{1 - x^{0.5}}\right).
 \end{align}
+
+To calculate the difference between $z_s$ and $z_{\rm obs}$, I estimated the mean ionized bubble
+size at some $z_{\rm obs}$ by counting the number of voxels between each halo and the nearest
+voxel which contained neutral gas and averaging that value over all halos. I then scaled this value
+by the comoving voxel size to obtain an estimate on the mean ionized bubble size at $z_{\rm obs}$. This was then
+converted to a $z_s$ value using the relationship $z_{s} = z_{obs} - H\left(z_{obs} \right) D / c$, where
+$D$ is the typical ionized bubble size. As expected, this model results in greater attenuation
+at high-redshifts and decreases as the ionized bubbles grow and the mean neutral fraction decreases.
+The effect of the attentuation resulted in \lya\ transmission values of
+$e^{-\tau_{\textrm{Ly}\alpha}} \approx 0.98,\, 0.82,\, 0.59$ at $z = 6, \, 7,\, 8$.
