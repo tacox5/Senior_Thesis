@@ -7,7 +7,6 @@ uncertainty from both measurements must be calculated.
 I will begin by discussing the uncertainty associated with 21\,cm power
 spectrum measurements due to sample variance and thermal noise. The total uncertainty
 associated with an observation of the 21\,cm power spectrum can be written as follows,
-
 \begin{equation}
 \sigma_{21} \left( \textbf{k} \right) = \left[ P_{21} \left( \textbf{k} \right) + P_{21, \textrm{N}} \left( \textbf{k} \right) \right],
 \end{equation}
@@ -63,7 +62,7 @@ P_{\textrm{Ly}\alpha, \textrm{N}} = \sigma_{\rm N}^2 V_{\text{vox}} \textrm{W}_{
 In the equation above, $\sigma_{\rm N} = 3 \times 10^{-20} \ {\rm erg \ s^{-1} \ cm^{-2} \ sr^{-1}}$ (\cite{2016arXiv160607039D})
 and $V_{\text{vox}}$ is volume associated a voxel measured by SPHEREx,
 set by its angular and spatial resolution.
-Typically the thermal noise is defined by just the first two terms, account for
+Typically, the thermal noise is defined by just the first two terms, but to account for
 the limited spectral and spatial resolution of the instrument, the thermal noise
 is scaled by the window function defined in \cite{2011ApJ...741...70L},
 \begin{equation}
@@ -84,10 +83,10 @@ error can be calculated by again spherically averaging this 2D noise power spect
 the cross-terms in the cross-power spectrum can be found in Figure \ref{fig:error_budget}.
 As can be seen from the figure, the cross-power spectrum, plotted in gray, turns-over
 on scales that fall below the noise level. While it is encouraging that part of the cross-power
-spectrum lies above the noise level, ideally a detection of this turnover would
+spectrum lies above the noise level, ideally a detection of this turn-over would
 like to be made to place constraints on the typical ionized bubble size surrounding
 ionizing sources. By identifying the contributions to the cross-power spectrum error
-it may be possible to develop observing strategies that make the turnover detectable.
+it may be possible to develop observing strategies that make the turn-over detectable.
 
 \begin{figure}[th]
 	\centering
@@ -105,4 +104,4 @@ This suggests that the feasibility of this measurement is not limited by the the
 noise contributions from either HERA or SPHEREx, but rather limited by SPHEREx's spectral
 resolution. Because this limitation is a feature of the instrument itself, this tells me that
 while the cross-power spectrum has the capability of being detected with a HERA-SPHEREx
-cross-measurement, the turnover does not.
+cross-measurement, the turn-over does not.

@@ -1,24 +1,25 @@
 \label{sec:21cm_temp}
 
 In this subsection, I briefly describe the simulation of the 21\,cm cosmological
-signal using the simulation code \fastsim.
-
+signal. As mentioned in the previously, \fastsim\ was written specifically to simulate the 21\,cm
+signal. It does this by generating density, velocity, and ionization fields at $z \approx 35$ and evolving
+them through cosmic time. With these fields and the following expression, the brightness temperature offset of the
+21\,cm signal can then be evaluated at a given redshift.
 \begin{align}
   \delta T_b \left(z \right) & = \frac{T_S - T_{\gamma}}{1+z} \left(1 - e^{-\tau_{\nu_0}} \right ) \nonumber \\
       & \approx 27 x_{\rm HI} \left( 1 + \delta_{\rm nl} \right) \left( \frac{H}{dv_r/dv + H}\right) \left( 1 - \frac{T_{\gamma}}{T_S}\right) \nonumber \\
       & \hspace{1em} \times \left( \frac{1 + z}{10} \frac{0.15}{\Omega_{\rm M} h^2} \right)^{1/2} \left( \frac{\Omega_{\rm b} h^2}{0.023} \right) \textrm{ mK,}
       \label{eqn:offset_temp}
 \end{align}
-
 In the equation above, $T_S$ is the gas spin temperature, $T_{\gamma}$ is the
-CMB temperature, $\tau_{\nu_0}$ is the optical depth at 21cm frequency, $\delta_{\rm nl}$
-is the non-linear density contrast $\delta_{\rm nl} = \rho / \bar{\rho}_0 - 1$, $H \left( z \right)$
+CMB temperature, $\tau_{\nu_0}$ is the optical depth at 21cm frequency, $\delta_{\rm nl} = \rho / \bar{\rho}_0 - 1$
+is the non-linear density contrast $H \left( z \right)$
 is the Hubble parameter, $dv_r / dr$ is the comoving gradient of the line of sight component
 of the comoving velocity, where all quantities are evaluated at redshift $z = \nu_0 / \nu - 1$.
 The brightness temperature offset can then be converted to a fluctuation field
-for cross-correlation using the equation below.
+for cross-correlation using the equation below,
 \begin{equation}
-\delta_{21} \left( \mathbf{x}, z\right) = \frac{ \delta T_b \left( \mathbf{x}, z\right)}{\delta \overline{T}_b \left( z \right)} - 1
+\delta_{21} \left( \mathbf{x}, z\right) = \frac{ \delta T_b \left( \mathbf{x}, z\right)}{\delta \overline{T}_b \left( z \right)} - 1,
 \end{equation}
 where $\delta \overline{T}$ is the spatial average of the 21\,cm brightness temperature offset
 $\delta T \left( \mathbf{x}, z\right)$. The simulated 21\,cm brightness temperature offset field defined

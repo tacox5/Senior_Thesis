@@ -3,47 +3,45 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: aasjournal.bst
 Database file #1: refs.bib
-Warning--I didn't find a database entry for ""
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 64 entries,
+You've used 65 entries,
             3166 wiz_defined-function locations,
-            1175 strings with 32893 characters,
-and the built_in function-call counts, 38892 in all, are:
-= -- 2736
-> -- 3919
+            1182 strings with 33360 characters,
+and the built_in function-call counts, 39395 in all, are:
+= -- 2772
+> -- 3966
 < -- 24
-+ -- 1316
-- -- 1396
-* -- 3910
-:= -- 7259
-add.period$ -- 72
-call.type$ -- 64
-change.case$ -- 403
-chr.to.int$ -- 63
-cite$ -- 64
-duplicate$ -- 1174
-empty$ -- 1905
-format.name$ -- 1474
-if$ -- 7624
++ -- 1331
+- -- 1413
+* -- 3962
+:= -- 7356
+add.period$ -- 73
+call.type$ -- 65
+change.case$ -- 407
+chr.to.int$ -- 64
+cite$ -- 65
+duplicate$ -- 1191
+empty$ -- 1932
+format.name$ -- 1492
+if$ -- 7723
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 56
-newline$ -- 208
-num.names$ -- 257
-pop$ -- 474
+missing$ -- 57
+newline$ -- 211
+num.names$ -- 261
+pop$ -- 479
 preamble$ -- 1
-purify$ -- 403
+purify$ -- 407
 quote$ -- 0
-skip$ -- 1072
+skip$ -- 1085
 stack$ -- 0
-substring$ -- 1396
+substring$ -- 1413
 swap$ -- 88
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 576
+type$ -- 585
 warning$ -- 0
-while$ -- 247
+while$ -- 250
 width$ -- 0
-write$ -- 703
-(There was 1 warning)
+write$ -- 714

@@ -1,15 +1,14 @@
 \label{sec:ionized_igm}
 
-In this section, I describe the \lya\ emission from the ionized IGM. As mentioned
+In this subsection, I describe the \lya\ emission from the ionized IGM. As mentioned
 at the beginning of this section, I focus on \lya\ emission in the ionized IGM due to hydrogen recombinations.
 As with \lya\ emitting galaxies, the ionized bubbles around galaxies also emits \lya\ photons through
 recombinations of ionized hydrogen. The luminosity density of \lya\ emission in
 some voxel of the simulation cubes can be defined using the following relationship,
-
 \begin{equation}
   l_{\rm rec} = E_{\rm Ly\alpha} f_{\rm rec} \dot{n}_{\rm rec} \left( \textbf{x}, z \right),
 \end{equation}
-where $E_{\rm Ly\alpha}$ is the rest-frame energy of \lya photons, $f_{\rm rec}$ is the
+where $E_{\rm Ly\alpha}$ is the rest-frame energy of \lya\ photons, $f_{\rm rec}$ is the
 fraction of recombinations that result in the emission of a \lya\ photon, and $\dot{n}_{\rm rec}$
 is the comoving number density of recombinations occurring in the ionized IGM. The expression for the
 number density of recombinations reads as,
@@ -17,7 +16,7 @@ number density of recombinations reads as,
   \dot{n}_{\rm rec} \left( \textbf{x}, z \right) = \alpha_{\rm A} n_{e} \left(z \right) n_{\textsc{HII}} \left(z \right),
 \end{equation}
 where $n_{e} = x_i \left( \textbf{x}, z \right) n_{b} \left( \textbf{x}, z \right)$,
-$n_{\textsc{HII}} = n_{e} \left(4 - 4 Y_{\rm HE} \right) /  \left(4 - 3 Y_{\rm HE} \right)$ and $\alpha_{\rm A}$
+$n_{\textsc{HII}} = n_{e} \left(4 - 4 Y_{\rm He} \right) /  \left(4 - 3 Y_{\rm He} \right)$ and $\alpha_{\rm A}$
 is the comoving recombination coefficient. The comoving baryonic number density can be expressed using the
 relationship below,
 \begin{equation}
@@ -31,7 +30,7 @@ comoving recombination coefficient, $\alpha_{\rm A}$, is defined below,
 \end{equation}
 
 The comoving number density of recombinations, $\dot{n}_{\rm rec}$, per pixel is simulated
-by using \fastsim to evolve the kinetic gas temperature $T_k \left( \textbf{x}, z \right)$,
+by using \fastsim\ to evolve the kinetic gas temperature $T_k \left( \textbf{x}, z \right)$,
 comoving baryonic number density $n_{b} \left( \textbf{x}, z \right)$, and the ionization
 fraction $x_{i} \left( \textbf{x}, z \right)$ for each voxel in the simulation cube.
 With the number density of recombinations calculated in each voxel, the luminosity
@@ -48,7 +47,7 @@ For this work, I chose to neglect the contribution from this \lya\ background as
 is subdominant to hydrogen recombination in the ionized IGM (roughly half the mean surface brightness)
 and the galactic \lya\ contribution (about an order of magnitude lower) as found in \cite{2013ApJ...763..132S} and
 \cite{2017ApJ...848...52H}. Adding in
-the \lya\ background contribution in the future to the surface brightness should be
+the \lya\ background contribution in the future should be
 trivial as \fastsim\ keeps track of this its emission when evolving the kinetic
 gas temperature and the ionization field. The surface brightness
 of \lya\ emission due to this background, $J_{\alpha} \left( \textbf{x}, z\right)$, can then be
