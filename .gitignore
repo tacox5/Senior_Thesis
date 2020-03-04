@@ -6,4 +6,5 @@
 __pycache__
 
 # Large pickle files of 21cmSense objects
-*pkl 
+*pkl
+*npz

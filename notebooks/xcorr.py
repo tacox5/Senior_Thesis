@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import astropy.units as u
 from scipy.interpolate import interp1d
@@ -7,6 +8,19 @@ from powerbox import get_power
 from hmf import MassFunction
 from scipy.ndimage.filters import gaussian_filter
 
+
+def load_binary_data(filename, dtype=np.float32):
+    """
+    We assume that the data was written
+    with write_binary_data() (little endian).
+    """
+    f = open(filename, "rb")
+    data = f.read()
+    f.close()
+    _data = np.frombuffer(data, dtype)
+    if sys.byteorder == 'big':
+        _data = _data.byteswap()
+    return _data
 
 """
 
@@ -357,12 +371,12 @@ def r(deltax, deltax2, boxlength, get_variance = False, **kwargs):
 
 """
 
-def mK_to_SB(T, z):
+def I_21(T, z):
     """
 
     Convert mean brightness temperature to a surface brightness
 
     """
-    nu = 1420 * u.MHz / (z + 1)
-    I = 2. * const.h * nu ** 3 / const.c ** 2 * 1.0 / (np.exp((const.h * nu / (const.k_B * T)).to(u.dimensionless_unscaled) - 1))
-    return (nu * I).to(u.erg / u.cm ** 2 / u.s)
+    nu = 1420 * u.MHz / (z + 1.)
+    I = (2. * const.h * nu ** 3 / const.c ** 2) * (1.0 / (np.exp(const.h * nu / (const.k_B * T)) - 1))
+    return (nu * I).to(u.erg / u.s / u.cm ** 2)
